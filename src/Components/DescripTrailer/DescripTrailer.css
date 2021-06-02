@@ -1,0 +1,87 @@
+@media screen and (max-width: 750px) {
+  .movieInfo img {
+    width: 50px;
+    padding: 7.5px;
+    background-color: honeydew;
+  }
+}
+.desTrai {
+  margin: 0px 100px 50px;
+  padding: 0px 100px;
+  display: block;
+  /* position: relative; */
+}
+
+.homeBtn {
+  /* position: absolute; */
+  border: 2px solid #5f67d3;
+  background: radial-gradient(#f8f8f8, #232fd6);
+  border-radius: 50px;
+  color: #232fd6;
+  padding: 25px 25px;
+  margin: 30px 435px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.homeBtn:hover {
+  border: 2px solid #ced0e9;
+  border-radius: 50px;
+  background: radial-gradient(#232fd6, #f8f8f8);
+  color: #fcfaf7;
+}
+
+.movieInfo {
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: honeydew;
+}
+.movieInfo img {
+  width: 300px;
+  padding: 7.5px;
+  background-color: honeydew;
+}
+.ratingSatrs {
+  display: flex;
+  margin: 20px 0px;
+  background-color: honeydew;
+}
+.movieDetails {
+  margin: 50px 30px;
+  position: relative;
+  background-color: honeydew;
+}
+.movieDetails h2 {
+  background-color: honeydew;
+  font-family: fantasy;
+  margin: 20px 0px;
+}
+.movieDetails h3 {
+  background-color: honeydew;
+  font-family: 'Lucida Sans';
+  font-size: x-large;
+  margin: 20px 0px;
+}
+.movieDetails h4 {
+  background-color: honeydew;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  margin: 20px 0px;
+}
+.trailerBtn {
+  float: right;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.vid {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
