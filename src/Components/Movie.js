@@ -22,18 +22,6 @@ function Movie({ movie }) {
             <Rating rating={rating} />
           </div>
 
-          {/* <Link
-            to={{
-              pathname: `/DescripTrailer/${id}`,
-              mov: {
-                image: image,
-                title: title,
-                rating: rating,
-                descrip: descrip,
-                trailer: trailer,
-              },
-            }}
-          > */}
           <Link to={`/DescripTrailer/${id}`}>
             <Button variant='info'>More Details</Button>
           </Link>
